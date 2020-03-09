@@ -23,10 +23,13 @@ from tensorflow.keras import Model, layers
 from tensorflow.keras.models import load_model, model_from_json
 
 
-# In[4]:
+# In[27]:
 
 
-keras.__version__
+import tensorflow as tf
+import tensorflow.keras
+print(tf.__version__)
+print(tensorflow.keras.__version__)
 
 
 # ### 2. Create Keras data generators 
